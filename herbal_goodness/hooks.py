@@ -242,3 +242,20 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["name", "in", ["Quotation-custom_po_number"]]
+        ]
+    },
+    {
+        "dt": "Print Format",
+        "filters": [
+            [
+                "creation", ">=", "2025-09-01"
+            ]
+        ]
+    },
+]
