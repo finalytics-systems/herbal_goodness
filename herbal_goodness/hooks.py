@@ -247,7 +247,7 @@ fixtures = [
     {
         "doctype": "Custom Field",
         "filters": [
-            ["name", "in", ["Quotation-custom_po_number"]]
+            ["name", "in", ["Quotation-custom_po_number","Delivery Note-custom_po_number","Delivery Note-custom_carrier","Delivery Note-custom_so_number","Delivery Note-custom_tracking_no"]]
         ]
     },
     {
