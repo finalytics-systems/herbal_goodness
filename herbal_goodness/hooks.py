@@ -258,4 +258,12 @@ fixtures = [
             ]
         ]
     },
+    {
+        "dt": "Email Template",
+        "filters": [
+            [
+                "creation", ">=", "2025-09-01"
+            ]
+        ]
+    },
 ]
